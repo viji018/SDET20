@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="contact.Tc_CreateContactTest">
+      <class name="contact.CreateContactTest">
         <methods>
-          <include name="CreatingContactwithAssignedToAdministratorTest"/>
           <include name="CreatingContactwithAssignedToSupportGroupTest"/>
-          <include name="beforeClassConfiguration"/>
           <include name="CreatingContactwithAssignedToTeamSellingGroupTest"/>
+          <include name="beforeClassConfiguration"/>
           <include name="afterMethodConfiguration"/>
-          <include name="CreatingContactwithLeadSource"/>
+          <include name="CreatingContactwithAssignedToMarketingGroupTest"/>
+          <include name="CreatingContactwithAssignedToAdministratorTest"/>
           <include name="beforeMethodConfiguration"/>
           <include name="afterClassConfiguration"/>
-          <include name="CreatingContactwithAssignedToMarketingGroupTest"/>
+          <include name="CreatingContactwithLeadSource"/>
         </methods>
-      </class> <!-- contact.Tc_CreateContactTest -->
+      </class> <!-- contact.CreateContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
